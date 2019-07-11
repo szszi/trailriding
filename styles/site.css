@@ -1,0 +1,10 @@
+.top-wrap {
+  max-height: 100vh;
+  min-height: 500px;
+}
+.top-wrap nav a {
+  color: #333 !important;
+}
+.top-wrap h1 {
+  font-family: 'Alfa Slab One', cursive;
+}
