@@ -8,3 +8,10 @@
 .top-wrap h1 {
   font-family: 'Alfa Slab One', cursive;
 }
+#offers {
+  /* background-image: url(../img/stone-bg.jpg); */
+  background-image: url(../img/woodstockpatternnaturebw.jpg);
+}
+#price {
+  background-image: url(../img/sunflower-bg2.jpg);
+}
