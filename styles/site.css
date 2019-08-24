@@ -9,8 +9,6 @@ body {
   min-width: 340px;
 }
 .top-wrap {
-  /* max-height: 100vh;
-  min-height: 500px; */
   background-image: url(../images/header-bg.jpg);
   background-position: 50% 0;
   height: 100vh;
@@ -32,7 +30,6 @@ body {
   font-size: 1.1rem;
 }
 #offers {
-  /* background-image: url(../images/stone-bg.jpg); */
   background-image: url(../images/woodstockpatternnaturebw.jpg);
 }
 #price {
@@ -46,6 +43,10 @@ body {
     background-position: 0 0;
     max-height: 100vw;
   }
+  #offers {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
 }
 
 /* medium */
@@ -57,12 +58,6 @@ body {
     background-color: transparent;
     padding: 0;
   }
-  /* .top-wrap nav a.secondary-menu {
-    font-size: 1rem;
-  }
-  #pte-ajk-logo {
-    width: 250px;
-  } */
   .top-wrap h2 {
     font-size: 1.3rem;
   }
@@ -72,7 +67,6 @@ body {
 @media screen and (min-width: 1200px) {
   .top-wrap {
     background-image: url(../images/header-bg-l.jpg);
-    /* max-height: 800px; */
   }
   .top-wrap nav a {
     font-size: 1.05rem;
@@ -83,18 +77,25 @@ body {
   .top-wrap h2 {
     font-size: 1.6rem;
   }
+  #offers {
+    font-size: 1.3rem;
+    line-height: 1.4;
+  }
 }
 
 /* xlarge */
 @media screen and (min-width: 1600px) {
   .top-wrap {
     background-image: url(../images/header-bg-xl.jpg);
-    /* max-height: 1200px; */
   }
   .top-wrap nav a {
     font-size: 1.2rem;
   }
   .top-wrap h1 {
     font-size: 4rem;
+  }
+  #offers {
+    font-size: 1.5rem;
+    line-height: 1.5;
   }
 }
