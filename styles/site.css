@@ -29,7 +29,7 @@ body {
 .top-wrap h2 {
   font-size: 1.1rem;
 }
-#offers {
+-offers {
   background-image: url(../images/woodstockpatternnaturebw.jpg);
 }
 -price {
@@ -98,4 +98,12 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
   }
+}
+
+
+.uk-label {
+  background: #222222;
+}
+.uk-button-danger {
+  font-size: 1.5rem;
 }
