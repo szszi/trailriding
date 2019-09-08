@@ -13,7 +13,8 @@
 
 <body>
 
-  <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
+  <!-- OFFCANVAS -->
+  <!-- <div id="offcanvas-nav" data-uk-offcanvas="flip: true; overlay: false">
     <div class="uk-offcanvas-bar uk-offcanvas-bar-animation uk-offcanvas-slide">
       <button class="uk-offcanvas-close uk-close uk-icon" type="button" data-uk-close></button>
       <div class="uk-text-center">
@@ -31,15 +32,14 @@
 
       </ul>
     </div>
-  </div>
-  <!-- /OFFCANVAS -->
+  </div> -->
 
   <!-- landing -->
   <div class="uk-inline uk-background-top-left uk-background-cover top-wrap uk-flex uk-flex-middle uk-grid-collapse"
     uk-grid>
 
     <!-- Navigation -->
-    <div class="uk-position-top-right uk-padding-small transparent-background">
+    <!-- <div class="uk-position-top-right uk-padding-small transparent-background">
 
       <nav class="uk-navbar uk-navbar-container uk-navbar-transparent uk-light" data-uk-navbar>
         <div class="uk-navbar-right">
@@ -55,7 +55,7 @@
             href="#offcanvas-nav"></a>
         </div>
       </nav>
-    </div>
+    </div> -->
 
     <div class="uk-width-expand"></div>
     <div class="-k-width-2-5@s uk-width-1-2@m uk-width-3-5@xl uk-inline">
@@ -132,8 +132,8 @@
             <div class="uk-panel uk-width-2-3@m uk-width-1-2@l uk-padding"
               style="background-color: rgba(0, 0, 0, 0.5);">
               <div class="uk-text-left">
-                <h2 uk-slider-parallax="x: 100,-100">Day 2 Friday</h2>
-                <p uk-slider-parallax="x: 200,-200">After breakfast we meet the horses and get brief instructions. We
+                <h2 -k-slider-parallax="x: 100,-100">Day 2 Friday</h2>
+                <p -k-slider-parallax="x: 200,-200">After breakfast we meet the horses and get brief instructions. We
                   saddle the horses and start our tour to ride through the region between Szava and Hegyszentmárton.
                   Lunch and dinner are provided by the equestrian center.</p>
                 <a href="#" class="uk-button uk-button-primary" uk-slider-item="previous">previous day</a>
@@ -150,8 +150,8 @@
               style="background-color: rgba(0, 0, 0, 0.5);">
               <!-- <img src="images/photo.jpg" alt=""> -->
               <div class="uk-text-left">
-                <h2 uk-slider-parallax="x: 100,-100">Day 3 Saturday</h2>
-                <p uk-slider-parallax="x: 200,-200">After breakfast we ride to the Drava River through a region of
+                <h2 -k-slider-parallax="x: 100,-100">Day 3 Saturday</h2>
+                <p -k-slider-parallax="x: 200,-200">After breakfast we ride to the Drava River through a region of
                   exceptional biodiversity. We have a picnic lunch near the river. We ride back to the equestrian
                   center, and have a special wine dinner in the evening.</p>
                 <a href="#" class="uk-button uk-button-primary" uk-slider-item="previous">previous day</a>
@@ -168,8 +168,8 @@
               style="background-color: rgba(0, 0, 0, 0.5);">
               <!-- <img src="images/photo.jpg" alt=""> -->
               <div class="uk-text-left">
-                <h2 uk-slider-parallax="x: 100,-100">Day 4 Sunday</h2>
-                <p uk-slider-parallax="x: 200,-200">After breakfast we set off to the direction of Turony and stop for
+                <h2 -k-slider-parallax="x: 100,-100">Day 4 Sunday</h2>
+                <p -k-slider-parallax="x: 200,-200">After breakfast we set off to the direction of Turony and stop for
                   lunch at Tenkes Csárda, a traditional Hungarian tavern. Then we set off for our last riding. Transport
                   from the center to Pécs is available for our guests in the late afternoon.</p>
                 <a href="#" class="uk-button uk-button-primary" uk-slider-item="previous">previous day</a>
@@ -249,14 +249,14 @@
         </div>
         <div class="uk-width-1-1@m uk-width-1-3@l">
           <div class="uk-card uk-card-secondary">
-            <div class="uk-card-body">
+            <div class="uk-card-body -k-position-relative">
               <h3 class="uk-card-title">Available dates</h3>
               <ul>
                 <li>3 to 6 October 2019</li>
                 <li>24 to 27 October 2019</li>
               </ul>
               <p>Limited places: maximum 10 persons per group.</p>
-              <button class="uk-button uk-button-danger uk-button-large">Apply now</button>
+              <button class="uk-button uk-button-danger uk-button-large uk-align-center">Apply now</button>
             </div>
           </div>
         </div>
@@ -401,22 +401,31 @@
     width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
 
   <!-- FOOTER -->
-  <footer id="contact" class="uk-section uk-section-secondary uk-padding-remove-bottom">
+  <footer id="contact" class="uk-section uk-section-secondary -k-padding-remove-bottom">
     <div class="uk-container">
-      <div class="uk-grid uk-grid-large" data-uk-grid>
-        <div class="uk-width-1-2@m">
+      <div class="uk-grid uk-grid-large" uk-grid>
+        <div class="uk-width-1-3@m">
           <h5>OUR TEAM</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud cillum dolore eu fugiat nulla contact to: <a
-              href="#" title="">info@company.com</a></p>
-          <div>
-            <a href="" class="uk-icon-button" data-uk-icon="twitter"></a>
-            <a href="" class="uk-icon-button" data-uk-icon="facebook"></a>
-            <a href="" class="uk-icon-button" data-uk-icon="instagram"></a>
+          <p>We are happy to provide you with any necessary information about our riding holidays. Get in touch with us and let us know about you and the details of the holiday you would like to book with us.<br>You can contact us here:<br><a
+              href="#" title="">info@trailriding.hu</a></p>
+        </div>
+        <div class="uk-width-2-3@m uk-child-width-1-3" uk-grid>
+          <div class="uk-text-center">
+            <img src="images/szilard.png" alt="">
+            <p><span class="uk-text-bolder uk-text-uppercase">Szilárd</span><br>manager</p>
+          </div>
+          <div class="uk-text-center">
+            <img src="images/annamaria.png" alt="">
+            <p><span class="uk-text-bolder uk-text-uppercase">Annamária</span><br>tour-guide</p>
+          </div>
+          <div class="uk-text-center">
+            <img src="images/eszter.png" alt="">
+            <p><span class="uk-text-bolder uk-text-uppercase">Eszter</span><br>contact-person</p>
           </div>
         </div>
-
       </div>
+    </div>
+    </div>
     </div>
 
   </footer>
