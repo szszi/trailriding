@@ -36,6 +36,10 @@ body {
   background-image: url(../images/sunflower-bg2.jpg);
 }
 
+.covid {
+  background-color: #f0506e;
+}
+
 /* small */
 @media screen and (min-width: 640px) {
   .top-wrap {
